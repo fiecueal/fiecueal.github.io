@@ -1,0 +1,11 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "eleventy",
+		"clean": "rm -rf _site && eleventy",
+		"dev": "eleventy --serve --incremental"
+	},
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0"
+	}
+}
